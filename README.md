@@ -56,7 +56,7 @@ This scoring system led to the following average scores (player 1 denoted on the
 | Minimax | 1.000 | 1.000 | 1.000 |
 | DQN | 0.625 | 0.000 | 1.000 |
 
-The minimax agent far surpasses the other agents, winning almost every single game. The DQN agent performs surprisingly poorly.
+The minimax agent far surpassed the other agents, winning almost every single game. The DQN agent performed surprisingly poorly.
 Although the model was trained on 51200 SARSA (state, action, reward, next state, next action) samples, given that there exist 19683 unique board states in regular tic-tac-toe, 
 the network may need a larger sample size or increased depth to consistently beat a random player. 
 Clever uses of rotations and reflections to augment the model may yield vast improvements to the DQN agent.
